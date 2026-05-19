@@ -22,7 +22,7 @@ df['Exit_Before'] = df['Estimated_XD'] - timedelta(days=1)
 
 # --- DASHBOARD UI ---
 st.title("📈 Dividend Run-up Dashboard (Thailand 2026)")
-st.markdown(f"**Current Date:** {datetime.now().strftime('%d %B %2026')}")
+st.markdown(f"**Current Date:** {datetime.now().strftime('%d %B 2026')}")
 st.divider()
 
 # สร้างแถวสำหรับการแจ้งเตือน (Alerts)
